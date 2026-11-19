@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   console.log('Hello world received a request.');
 
   const target = process.env.TARGET || 'World';
-  res.send(`Hello ${target}! I hope you realize america is cooler than europe.`);
+  res.send(`Hello ${target}! You want some mac&cheese?`);
 });
 
 const port = process.env.PORT || 8080;
